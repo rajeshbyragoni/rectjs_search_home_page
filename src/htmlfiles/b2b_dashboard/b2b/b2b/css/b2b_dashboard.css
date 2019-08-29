@@ -1,0 +1,759 @@
+  
+.dashboard{
+     width:100%;
+     float:left;
+     margin:0px 0px;
+    padding:25px 0px; 
+    background-color:#d6d4d9;    
+}
+.nopad{
+  padding:0px; 
+}
+
+h1 {
+
+    margin-bottom: 20px;
+}
+
+.mt10{
+  margin-top:10px; 
+}
+.mt15{
+  margin-top:15px; 
+}
+
+.mb15{
+  margin-bottom:15px; 
+}
+.mb10{
+  margin-bottom:10px; 
+}
+
+.slide{
+    width: 100%;
+    float: left;
+    /*border: solid 1px #fff;*/
+    background: #fff;
+    border-radius:0px; 
+}
+
+.slide ul{
+    margin:0px 0px;
+    padding:0px 0px;     
+}
+
+.slide ul li{
+     display:block;
+     width:100%;  
+    float: left;
+    margin:0px 0px;
+    padding:0px 0px;
+    border-top:1px solid #f2f2f2 !important;      
+    /*border-bottom: 1px solid #404040;*/    
+}
+
+.slide ul li.active{
+    background-color:#af2020; 
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+   background-color:#af2020;   
+}
+
+.slide ul li a{
+     width:100%;  
+     float:left; 
+     color:#343132 !important; 
+    margin:0px 0px;
+    padding:10px 15px;   
+    text-decoration: none;
+    border:none; 
+    font-size:13px; 
+}
+
+.nav-pills>li>a {
+    /* border-radius: 4px; */
+}
+
+.slide ul li a:hover, .slide ul li a.active{
+     background:#8cd400; 
+     border-radius:0px;
+     color:#fff !important;
+     border:none;    
+}
+.slide ul li a.active .fa{color:#fff; }
+.slide ul li a:hover .fa {
+   color:#fff !important;
+}
+
+.slide .fa{
+    margin-right: 7px;
+    display: inline-block;
+    width:20px;
+    color:#8cd400; 
+
+}
+.userpfl{
+   width:100%;
+   float:left;  
+}
+
+.userpfl h6{
+  text-align:center;
+  color:#fff;
+  font-size:20px;
+  font-weight:300;    
+}
+
+.logo{
+  width:100%;
+  text-align:center;  
+}
+
+.tbnew{
+  width:100%;
+  float:left; 
+  background: #fff;
+  padding: 15px; 
+}
+
+.tbnew h1{
+ font-size:30px;
+ font-weight:300; 
+}
+
+ul.listn{
+ margin:0px 0px;
+ padding:0px 0px;
+ list-style: none;  
+}
+
+ul.listn li {
+    margin-right: 18px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 154px;
+}
+/*ul.listn li:hover {
+     background:#231f20; 
+}
+ul.listn li:hover .icn{
+     color: #fff;
+    }*/
+
+    #flight, #hotel, #flt, #pck, #tour, #tsfr {
+      width:100%;
+      float:left;
+      background:#fff;
+      min-height:433px;
+      height:auto;  
+      padding:15px 0px 15px 0px;    
+    }
+
+    .input-group-addon{
+      border-radius:0px;  
+      background-color:#8cd400;
+      color:#fff; 
+          font-size: 22px;
+    }
+.form-control{
+  border:solid 2px #8cd400;
+  height:39px;  
+}
+.tab-content label {
+  color:#343132; 
+}
+.ad_m{
+  width:100%;
+  float:left;
+  background:#fff;
+  padding:15px;
+  margin-top:20px;   
+  height:267px;  
+}
+
+.ad_m_b{
+  width:100%;
+  float: left;
+  background:#fff;
+  padding:15px;
+  margin-top:20px;   
+  height:auto;  
+}
+.ad_m_b img{width:100%; }
+
+.incredible-places {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+    background:none;
+}
+.ritbar{
+  width:100%;
+  float:left;
+  background:#fff;
+  height:auto; 
+  padding:0px 0px;    
+}
+
+.ritbar h4{
+font-size:16px;
+color:#fff;
+margin:0px 0px;
+border-bottom:solid 1px #8cd400;
+padding:10px 15px; 
+background:#8cd400;
+text-align: left;         
+}
+
+.ritbar h5 {
+    font-size:16px;
+    padding:15px;
+    /*border-bottom:solid 1px #f2f2f2; */ 
+}
+
+.ritbar h5 span{background:#fff;color:#8cd400; float: right;  }
+.form-control:focus {
+    border-color: #8cd400 !important;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(201, 167, 105, .6);
+}
+
+.ritad{
+  width:100%;
+  float:left;
+  margin-top:15px; 
+  background:#fff;   
+}
+.ritad img{width:100%}
+
+.mn_radio {
+    border-radius: 0px;
+    float: left;
+    margin: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #d6d4d9;
+    border-radius: 0px;
+}
+.mn_radio input.css-checkbox[type="radio"] {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    left: -1000px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    z-index: -1000;
+}
+.mn_radio input.css-checkbox[type="radio"] + label.css-label, input.css-checkbox[type="radio"] + label.css-label.clr {
+    color: #4c4a4a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 16px;
+    margin: 0;
+    padding: 8px 8px;
+    vertical-align: middle;
+}
+.mn_radio input.css-checkbox[type="radio"]:checked + label.css-label, input.css-checkbox[type="radio"] + label.css-label.chk {
+    background-color: #8cd400;
+    color: #fff;
+    border-radius: 0px;
+}
+
+
+.owl-controls{
+  display:none !important; 
+}
+/*===================================================== 11.incredible place section css goes here =======================================================*/
+.incredible-places .single-place {
+     margin-bottom: 30px;
+}
+.incredible-places .single-place figure {
+     overflow: hidden;
+     position: relative;
+}
+.incredible-places .single-place figure:before {
+     position: absolute;
+     left: -30px;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.5);
+     content: '';
+     transition: all ease-in-out 0.5s;
+     z-index: 1;
+     opacity: 0;
+     visibility: hidden;
+      border-radius:6px;
+}
+.incredible-places .single-place figure a {
+     display: block;
+}
+.incredible-places .single-place figure a img {
+     width: 100%;
+     border-radius:0px;  
+}
+.incredible-places .single-place figure figcaption {
+     position: absolute;
+     width: 100%;
+     left: 0px;
+     bottom: 30px;
+     transition: all ease-in-out 0.5s;
+     opacity: 0;
+     visibility: hidden;
+     z-index: 2;
+}
+.incredible-places .single-place figure figcaption h4 {
+     color: #ffffff;
+     font-size: 15px;
+     font-weight: 500;
+}
+.incredible-places .single-place figure figcaption h4 span {
+     color: #ba8f3e;
+}
+.incredible-places .single-place:hover figcaption {
+     left: 30px;
+     opacity: 1;
+     visibility: visible;
+}
+.incredible-places .single-place:hover figure:before {
+     left: 0px;
+     opacity: 1;
+     visibility: visible;
+}
+/*===================================================== 12.subscribe area section css goes here =======================================================*/
+.ad_m h3{
+  text-align:left;
+  color:#343132;
+  margin:0px 0px;
+  font-size:18px;
+  border-bottom:solid 1px #eee;
+  padding:0px 0 12px 0px;       
+}
+
+.dtls_m{
+  width:100%;
+  float: left;
+  /*background:#e2e3e7;  */
+  padding:0px;
+
+}
+.table-bordered {
+    border: 1px solid #fff;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #fff;
+}
+.tblbdr{
+  width:100%;
+  float:left;  
+  background:#e2e3e7; 
+}
+.tblbdr ul{
+margin:0px;
+padding:0px;  
+}
+
+.tblbdr ul li{
+  width:17%;
+ /* padding:10px;  */
+  float:left;
+  border:solid 2px #fff;  
+margin:0px;
+margin:0px;
+list-style:none; 
+}
+.tblbdr ul li:last-child{
+  width:49%; 
+  float:right; 
+}
+
+.dtls_m table td {
+  width:100px; 
+}
+
+.dropalt_f {
+    float: left;
+    width:100%;
+    padding:0px;
+    margin: 0px 0px 0px 0px;
+}
+.dropalt_f .form-control{
+  padding:6px 7px !important; 
+
+}
+.flt_img{
+  width:100%;
+  float:left;
+  padding:15px;   
+}
+
+.dropalt {
+    float: left;
+    width: 107px;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+}
+.dropalt .form-control{
+  padding:6px 7px !important; 
+
+}
+.drtp{
+  border-bottom:solid 2px #fff;  
+  padding:10px;
+  float:left;
+  width:100%; 
+  display:block;  
+  color:#343132; 
+}
+.rmt {
+    padding: 19px 10px;
+    float: left;
+    width: 100%;
+}
+
+
+    .sprite{
+      background:url(../images/b2c_sprite.png);
+      width:21px;
+      height:21px;   
+    }
+
+   /* select {
+         -webkit-appearance: none;
+    appearance: none;
+    }*/
+.selctmark::after {
+
+    background:#8cd400;
+    bottom:0px;
+    color:#fff;
+    content:"\f0dc";
+    font-family:"FontAwesome";
+    font-size:22px;
+    line-height:40px;
+    pointer-events:none;
+    position:absolute;
+    right:0px;
+    text-align:center;
+    top:-1px;
+    height:40px;
+    width:40px;
+    border:1px solid #ccc;
+    z-index:9; 
+}
+.selctmark {
+    position: relative;
+}
+
+.ntal::after {
+
+    background:#8cd400;
+    bottom:0px;
+    color:#fff;
+    content:"\f107";
+    font-family:"FontAwesome";
+    font-size:22px;
+    line-height:40px;
+    pointer-events:none;
+    position:absolute;
+    right:0px;
+    text-align:center;
+    top:-1px;
+    height:40px;
+    width:40px;
+    border:1px solid #ccc;
+    z-index:9; 
+}
+.ntal {
+    position: relative;
+}
+
+.user-profile-avatar {
+    padding:15px 10px;
+    margin-bottom: 20px;
+    color:#333; 
+    background:#fff; 
+}
+.user-profile-avatar img {
+    width: 120px;
+    height:120px; 
+    margin-bottom: 15px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.user-profile-avatar h5{color:#8cd400; font-weight:500;  }
+.user-profile-avatar p{font-size:14px;color:#343132;  }
+.icn{
+    font-size: 70px; 
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #8cd400;
+}
+
+ ul.listn li h5{
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 1em;
+    margin-bottom: 3px;
+    color: #222;
+}
+ul.listn li p{
+      margin-bottom: 0;
+    line-height: 1em;
+    font-size: 12px;
+}
+  /******** check box ***********/
+
+  .chk {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height:25px;
+    color:#333;  
+}
+.form-group {
+    position: relative;
+
+}
+.form-control{
+  border-radius:0px;
+}
+.form-group.form-group-icon-left .form-control {
+    padding-left: 32px;
+}
+.form-group .input-icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    /*line-height: 32px;*/
+    display: block;
+    top:35px;
+    left: 1px;
+    text-align: center;
+    color: #b3b3b3;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 2;
+}
+.bt_n {
+    padding: 9px 19px;
+    color: #fff !important;
+    border-radius: 6px;
+    float: left;
+    margin-bottom: 25px;
+    background: #DC2D2D;
+    text-decoration: none;
+    outline:none;
+    border:none;
+    cursor:pointer;   
+}
+.spttckt{
+     width:100%;
+     float: left;
+     /*padding:15px; 
+     box-shadow:0 0 5px #ccc;  */
+}
+.spttckt ul{
+    margin:0px 0px;
+    padding:7px 0px;
+    background:#4d4d4d;   
+}
+.spttckt ul li{
+    margin:0px 0px;
+    padding:0px 0px;  
+    list-style: none;
+}
+.spttckt ul li a{
+    margin:0px 0px;
+    padding:7px 15px; 
+    color:#fff;  
+    text-decoration: none;
+}
+.spttckt ul li a:hover, .spttckt ul li a.active{
+     background:#af2020; 
+}
+.table-responsive{
+     padding:20px 0px; 
+}
+.mt15{
+     margin-top:15px; 
+}
+.tbl_m{
+     width:100%;
+     float:left;  
+}
+.tbl_m td, .tbl_m th{
+     padding:8px; 
+     font-size:13px; 
+     text-align:center; 
+
+}
+.tbl_m td .icfa{
+    display: block;
+    font-size: 25px;
+    color: #626262;
+    margin-bottom: 2px;
+    text-align:center; 
+
+}
+a.actn{
+     color:#FF1D13;
+     padding:3px;  
+}
+h5.fltrm{
+    width:100%;
+    background:#4d4d4d;
+    padding:10px 7px; 
+    color:#fff;
+    font-weight:300;
+    border-radius:4px;   
+    cursor:pointer;    
+}
+
+ul.b2btb{
+  width:100%;
+  float: left; 
+}
+ul.b2btb li{
+  float:left;  
+}
+ul.b2btb li a{
+  color:#00486c !important;  
+  padding:10px 12px; 
+}
+.psn {
+    position: absolute;
+    bottom: 0px;
+    padding: 7px;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+}
+
+ul.b2btb.nav-tabs>li.active>a, ul.b2btb.nav-tabs>li.active>a:focus, ul.b2btb.nav-tabs>li.active>a:hover {
+    background-color: #fff !important;
+    color: #333;
+    border: solid 1px #fff;
+}
+ul.b2btb.nav>li>a:focus, ul.b2btb.nav>li>a:hover {
+    background-color: #fff !important;
+    border: solid 1px #fff;
+}
+
+
+.btn-primary {
+    background: #8cd400  !important;
+    border-color: #8cd400  !important;
+    padding:9px 15px;
+    margin:0 0px 0 10px;  
+}
+.blns{
+     width:100%;
+     float:left;
+     margin-top:20px;   
+}
+/* Hide the browser's default checkbox */
+.chk input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+/*option:checked, option:hover {
+    color: white;
+    background: #488f8f repeat url("data:image/gif;base64,R0lGO...");
+}*/
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    /*background-color: #fff;*/
+    border:solid 1px #ced4da; 
+}
+
+/* On mouse-over, add a grey background color */
+.chk:hover input ~ .checkmark {
+    background-color: #DC2D2D;
+}
+
+/* When the checkbox is checked, add a blue background */
+.chk input:checked ~ .checkmark {
+    background-color: #DC2D2D;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.chk input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.chk .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.btn-info{
+    background-color:#DC2D2D;
+    border-color:#DC2D2D;
+}
+
+     /******** check box end *********/
+
+.dsh_bg {
+  width: 100%;
+  float: left;
+  background: #fff;
+  padding: 15px;
+}
+.bg_mn{
+  padding:0;
+}
+.table-responsive {
+  padding: 20px 0px;
+}
+.table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+a {
+  color: #8cd400;
+  text-decoration: none;
+}
+a:hover{
+  color: #8cd400;
+}
