@@ -1,0 +1,389 @@
+/*YOUR CUSTOM STYLES*/
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary
+{
+	background:#8cd400;
+	border-color:#8cd400;
+}
+.nopad{
+	padding:0px; 
+}
+.iconPrt img{width:50%;margin:40px 0px;}
+.iconPrt{width:100%;height:150px;font-size:50px;text-align:center;border:1px solid #fff;border-radius:100px;color:#fff;display:block;}
+.iconPrt .fa{padding:50px 0px;}
+.slid{
+    color:#000 !important; 	
+}
+
+.exp_our{
+
+	width:100%;
+	float:left;
+	padding:30px 0px;    
+}
+.lt_bg{
+  background:#f2f2f2;
+}
+.mdimg{
+	width:26%;
+	float:right;  
+}
+.mdimg img {
+	width:100%;
+	height:353px; 
+}
+.login_f{
+	width:100%;
+	float:left;
+	background:rgba(50,50,50, 0.5);
+	padding:25px;
+	border-radius:6px;
+	z-index:99;       
+}
+.hgtat{
+	height:691px !important; 
+}
+.full-ctr {
+ width:100%;
+ float:left;  
+}
+.full-cntr-pd{
+	width:100%;
+	float:left;  
+	padding:180px 0px; 
+}
+.txt-cntr-pd {
+	width:100%;
+	float:left;  
+	padding:20px 0px 30px 0px; 
+	
+}
+.txt-cntr-pd h3{
+	text-align: center;
+	padding:10px 0px; 
+	font-size:50px; 
+	color:#fff; 
+	text-shadow:0 0 5px #0e0e0e; 
+}
+.txt-cntr-pd h5{
+	text-align: center;
+	padding:10px 0px; 
+	font-size:20px; 
+	color:#fff; 
+	line-height:30px; 
+	text-shadow:0 0 5px #0e0e0e;
+}
+
+span.nvig {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #00486c;
+    padding: 6px 0;
+}
+.logo img {
+    width: 150px;
+    margin-top: 2px;
+}
+
+.main_header{
+    width:100%;
+    float: left;
+    background:#fff;  
+}
+.hvg{
+	width:100%;
+	float:left;  
+}
+.banner {
+    width:100%;
+    float: left; 
+}
+.search_tab{
+    width:100%;
+    float:left;
+    padding:109px 0 25px 0px;   
+}
+
+.flight_m{
+    width:100%;
+    float:left;
+    background:#f7f7f7;   
+}
+.search-tabs-bg > .tabbable > .nav-tabs > li > a.active {
+    background: rgb(140, 212, 0);
+}
+
+
+/*.hvg h4, .hvg h4 a{
+color:#fff !important; 	
+}*/
+.lg_ftr{
+	width:100%;
+	float:left;
+	/*background:#fff;*/
+	padding:0px;
+	border-radius:6px;
+	margin-bottom:0px;        
+}
+.lg_ftr img{
+    background:#fff;
+    border-radius:6px;  
+}
+.success_m {
+    width: 100%;
+    float: left;
+    /*box-shadow: 0 0 5px #ccc;*/
+    padding: 20px;
+    margin: 50px 0px 50px 0px;
+    /*background: #fff;*/
+}
+.bg4 {
+    background: #f7f7f7;
+}
+.mn {
+    width: 100%;
+    float: left;
+}
+.success_m h2 {
+    color:#8cd400; 
+}
+.success_m h5 {
+    color:#000; 
+}
+/*****booking traveller start here ***/
+/*.brt1{
+    border-top:solid 1px #ccc; 
+    }*/
+    .dtal100{
+        width:100%;
+        float:left;
+        padding:0px 15px;   
+    }
+    .clm100 {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+    }
+    .clm100_mn {
+        width: 100%;
+        float: left;
+        box-shadow: 0 0 5px #ccc;
+        margin: 15px 0 0px 0px;
+        background: #fff;
+        padding-bottom:15px;  
+    }
+    .prm{
+        width:100%; 
+    }
+    .clm100_mn h2 {
+        color: #fff;
+        /*background: #8cd400;*/
+        background:#00486c;
+        margin: 0px;
+        padding: 5px 13px;
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+    .divider{
+        width:94%;
+        background:#f4f4f4;
+        height:1px;  
+        float:left;
+        margin:5px 3%;    
+    }
+    .p15{
+        padding:15px 0px !important; 
+    }
+    .mtp10 {
+        margin-top: 15px;
+    }
+    img.crd {
+        width: 95px;
+        height: 37px;
+    }
+    .clm100_sd {
+        width: 100%;
+        float: left;
+        box-shadow: 0 0 5px #ccc;
+        margin: 15px 0 0px 0px;
+        background: #fff;
+    }
+    .clm100_sd h4 {
+        background: #00486c none repeat scroll 0 0;
+        letter-spacing: 1px;
+        margin: 0;
+        color: #fff;
+        padding: 5px 13px;
+        font-size:19px; 
+    }
+    .frer_mn {
+        width: 100%;
+        float: left;
+        border-bottom: dashed 1px #ccc;
+        font-size: 14px;
+        padding: 7px 0px;
+        font-weight: 600;
+        color: #000;
+    }
+    .frer_mn:last-child { border-bottom:none;}
+    .tol{
+       color:#8cd400; 
+       text-transform: uppercase;
+   }
+   .bt_n {
+    padding: 9px 19px;
+    color: #fff !important;
+    border-radius: 6px;
+    float: left;
+    margin-bottom: 25px;
+    background:#DC2D2D; 
+}
+.booking-filters-list .fa-star{
+    color:#8cd400; 
+}
+
+.dtlb{
+    width:100%;
+    float:left;
+    margin-top:0px;  
+    /*border-top:solid 1px #ccc;   */
+}
+
+.dtlb ul{
+    margin:0px 0px;
+    padding:0px 0px;   
+}
+
+.dtlb ul li{
+    float:left; 
+    list-style: none;
+    margin:0px 0px 0px 0px;
+    padding:7px 50px 0px 0px;   
+    color: #8cd400;
+}
+p.booking-item-address{
+    margin:0px 0px 5px 0px 
+}
+.color-yellow{
+   color: #8cd400;
+}
+
+.romDetlsHdrPrt {
+    background: #00486c;
+}
+.firstClmn {
+    width: 40%;
+    float: left;
+}
+.inrHdr {
+    color: #fff;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 36px;
+    font-size: 15px;
+}
+.secndClmn {
+    width: 60%;
+    float: left;
+}
+.romDetlsBtmPrt {
+    border: 1px solid #ccc;
+}
+.brdrRigt {
+    height: 135px;
+    border-right: 1px solid #ccc;
+}
+
+.romDetlImgg {
+    padding: 5px 10px 7px;
+}
+.romDetlImgg img {
+    height: 118px;
+    width: 100%;
+}
+.htlDelsDecp p {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px 0;
+}
+.guetIcnn {
+    padding: 45px 0px;
+}
+.romdetlsprnt p {
+    font-size: 14px;
+    margin:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    padding-top:40px;
+    padding-bottom:46px;
+}
+.cartIcnn {
+    position: absolute;
+    left: 0%;
+    bottom: 20px;
+    width: 100%;
+}
+
+/*****booking traveller end here ***/
+
+
+
+/******* package details start here ****/
+
+.avl_n {
+    width: 100%;
+    float: left;
+}
+.navTabLst {
+    padding: 0px;
+    width: 100%;
+    background:#00486c !important;
+
+}
+.het{
+    height:14px; 
+}
+.navTabLst li {
+    margin: 0px;
+}
+.navTabLst li a {
+    font-size: 14px;
+    color: #fff;
+    border: 0px;
+    padding: 0 25px;
+    line-height: 40px;
+}
+.tabContnt {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+}   
+.htdes, .box_o{
+	width:100%;
+	float:left;
+	padding:10px 15px;   
+}
+.navTabLst > li > a:hover, .navTabLst > li > a:focus {
+    background: #ffff !important;
+    color: #000;
+}
+.rv_pg{
+	width:100%;
+	float:left;  
+}
+.rv_pg img{
+	width:100%;
+
+}
+.rv_pg_rt{
+	width:100%;
+	float:left;  
+}
+.mbm10 {
+    margin-bottom:15px;
+}
+/*#pswdent{
+	display:none; 
+    }*/
+
+/**** package details end her *****/
